@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "../Inc/CarSensors.h"
+#include "../Inc/drive.h"
 
 int drive(CarSensors carSensors) {
   carSensors.pedals.acceleration += 6.0;
