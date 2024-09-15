@@ -1,0 +1,40 @@
+C compiler should be preinstalled on University PCs
+If you are using laptop, follow these instructions:
+
+Windows:
+1) Download MinGW:
+
+  Go to the MinGW website.
+  Download the "mingw-get-setup.exe" installer.
+
+2) Install MinGW:
+
+  Run the installer.
+  Select the "mingw32-base" and "mingw32-gcc-g++" packages from the package manager. This includes the GCC compiler for C and C++.
+  Click "Apply Changes" to install the selected packages.
+
+
+3) Set Up Environment Variables:
+
+  Right-click on "This PC" or "Computer" on your desktop or in File Explorer and select "Properties."
+  Click "Advanced system settings" on the left.
+  Click the "Environment Variables" button.
+  Under "System variables," find and select the "Path" variable, then click "Edit."
+  Add the path to your MinGW bin directory (e.g., C:\MinGW\bin).
+  Click "OK" to close all dialogs.
+
+4) Verify Installation:
+
+  Open Command Prompt (cmd).
+  Type gcc --version and press Enter. You should see information about the GCC version if it’s installed correctly.
+
+MacOS:
+1) Install Xcode Command Line Tools:
+
+  Open Terminal.
+  Run the command xcode-select --install.
+  A pop-up window will appear. Click "Install" to download and install the tools.
+
+2)Verify Installation:
+
+  In Terminal, type gcc --version and press Enter. You should see information about the GCC version if it’s installed correctly.
