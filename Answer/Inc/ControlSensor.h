@@ -4,7 +4,7 @@
 #ifndef CONTROLSENSOR_H
 #define CONTROLSENSOR_H
 
-typedef struct ControlSensor
+typedef struct
 {
   float steeringAngle;
 } ControlSensor;

@@ -7,7 +7,8 @@
 #include "ControlSensor.h"
 #include "PedalsSensor.h"
 
-typedef struct {
+typedef struct
+{
   PedalsSensor pedals;
   ControlSensor control;
 } CarSensors;
