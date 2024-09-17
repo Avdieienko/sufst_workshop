@@ -11,10 +11,27 @@
   1) Navigate to Src folder and complete tasks in drive.c file
 - Task 3: Complete main function
   1) Navigate to main.c file located in Src folder
-- Task 4: Navigate to Src folder and compile the application by running the following script:
+- Extra: If you get this far, look at multithreading (pthreads) and synchronisation in C. Run two functions at once, one which adds structs to an array (a queue), then one which reads from the counter and prints the struct to the terminal. (Hint: this is a producer-consumer synchronisation problem.)
+
+
+
+  <h4>To run the script you can use either use cmake or do it directly with gcc compiler:</h4>
+
+  The commands will probably be something like this:
+
+    ```pwd
+  $ mkdir build
+  $ cd build
+  $ cmake ..
+  $ make -s
+  $ ./workshop
   ```
-  cd Src
-  gcc main.c drive.c -o main
+
+    OR
+    
+  ```pwd
+  $ cd Src
+  $ gcc main.c drive.c -o main
   ```
 You completed a workshop!
 
