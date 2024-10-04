@@ -1,4 +1,4 @@
-# SUFT Electronics-Software Workshop
+# SUFST Electronics-Software Workshop
 
 <p>To run the C script you need a compiler installed on your computer(GCC) refer to the compiler_installation.txt file for installation instructions, if you need so</p>
 
