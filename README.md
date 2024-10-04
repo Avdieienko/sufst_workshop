@@ -23,8 +23,8 @@
   $ mkdir build
   $ cd build
   $ cmake ..
-  $ make -s
-  $ ./workshop
+  $ cmake --build .
+  $ ./workshop or ./Debug
   ```
 
     OR

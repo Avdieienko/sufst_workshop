@@ -2,9 +2,8 @@
 #include "../Inc/CarSensors.h"
 #include "../Inc/drive.h"
 
-int drive(CarSensors carSensors) {
-  carSensors.pedals.acceleration += 6.0;
-  carSensors.control.steeringAngle += 30.0;
-  printf("Sensors after: Acceleration = %.2f, Brake = %.2f, Steering Angle = %.2f\n", carSensors.pedals.acceleration, carSensors.pedals.brake, carSensors.control.steeringAngle);
+int drive(CarSensors* carSensorsPtr) {
+  carSensorsPtr->pedals.acceleration += 6.0;
+  carSensorsPtr->control.steeringAngle += 30.0;
   return 0;
 }

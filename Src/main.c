@@ -11,5 +11,7 @@ int main() {
 
   // Step 4: Call the drive function
 
+  // Step 5: Print the sensor values
+
   return 0;
 }

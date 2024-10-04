@@ -15,7 +15,9 @@ int main() {
 
   printf("Sensors before: Acceleration = %.2f, Brake = %.2f\n", carSensors.pedals.acceleration, carSensors.pedals.brake);
 
-  drive(carSensors);
+  drive(&carSensors);
+
+  printf("Sensors after: Acceleration = %.2f, Brake = %.2f\n", carSensors.pedals.acceleration, carSensors.pedals.brake);
 
   return 0;
 }
