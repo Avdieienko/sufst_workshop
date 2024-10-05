@@ -6,7 +6,7 @@
 
 typedef struct
 {
-  float steeringAngle;
+  double steeringAngle;
 } ControlSensor;
 
 #endif

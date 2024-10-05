@@ -6,8 +6,8 @@
 
 typedef struct
 {
-  float acceleration;
-  float brake;
+  double acceleration;
+  double brake;
 } PedalsSensor;
 
 #endif

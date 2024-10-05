@@ -3,6 +3,6 @@
 
 #include "CarSensors.h"
 
-int drive(CarSensors* carSensorsPtr);
+void drive(CarSensors* carSensorsPtr);
 
 #endif // DRIVE_H
