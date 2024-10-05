@@ -4,8 +4,7 @@ If you are using laptop, follow these instructions:
 Windows:
 1) Download MinGW:
 
-  Go to the MinGW website.
-  Download the "mingw-get-setup.exe" installer.
+  Go to the https://www.msys2.org
 
 2) Install MinGW:
 
